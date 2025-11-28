@@ -145,7 +145,8 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background: black;
+    background: linear-gradient(135deg, #000000 0%, #1a1a1a 25%, #2d2d2d 50%, #1a1a1a 75%, #000000 100%);
+    z-index: -1;
 }
 
 .hero .container {
@@ -543,8 +544,7 @@ body {
 /* Final CTA Section */
 .final-cta {
     padding: 4rem 0;
-    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.6)), 
-                url('IMG_3882.JPG') center/cover;
+    background: linear-gradient(45deg, #000000 0%, #2d2d2d 50%, #000000 100%);
     color: var(--white);
     text-align: center;
 }
